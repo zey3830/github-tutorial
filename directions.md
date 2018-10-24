@@ -18,7 +18,7 @@
   * explain what each is, and the difference between the two
   * [10%]
 * one-time setup
-  * making a github account, SSH key
+  * making a github account (you don't need to go in much depth), SSH key (especially why we need it / what it does)
   * [15%]
 * repo setup
   * `init`, your first `add` & `commit`, new repo on github, remote
