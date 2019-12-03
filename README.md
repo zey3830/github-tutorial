@@ -4,7 +4,8 @@
 
 ---
 # <a href="commands.md">Commands</a>
----
+(Clicking Commands will direct you to a list of commands and phase mentioned in the directions with its explanation)
+
 ## Git vs. GitHub
 - Git is independent from github that is use for version controls and create repositories
 - Github depedents on git, it is a website that lets you better manage your repositories
@@ -20,17 +21,21 @@
 
 ---
 ## Repository Setup
-1. Go into your IDE, create a directory using "mkdir" then use "cd" to move into that directory 
-
+1. Go into your IDE, create a directory using "mkdir" then use "cd" to move into that directory  
+```mkdir tutorial```  
+```cd tutorial```
 2. In the new directory do "git init" to setup git commands
 
-3. Create a new file using "touch" (name the file "README.md")
+3. Create a new file using "touch" (name the file "README.md")  
+```touch README.md```
 
-4. Open up the file by using "c9" (for ide.cs50.io & some other IDE) or just open it up manually and type something on it (remember to save the edited file)
+4. Open up the file by using "c9" (for ide.cs50.io & some other IDE) or just open it up manually and type something on it (remember to save the edited file)  
+```c9 README.md```
 
 5. Go back to the command terminal and do "git status" to check the whatever the new file have been changed or edited
 
 6. After you made sure there are changes in the file (if not add something to the file) do "git add" to add the file to the staging step
+```git add README.md```
 
 7. Then do another "git status", you should see that the file have been added
 
@@ -70,42 +75,3 @@
 17. Now go back to github and refresh the page, you should see a new screen with your READme.md file
 
 <img src="image/step_final.PNG" alt="product">
-
----
-## Workflow & Commands
-- git status
-    - pretty much just show the files that has been edited or changed
-- git add
-    -  put the file(s) onto the staging step
-        - the staging step is the step before being commited, to ensure that you want to commit this file
-    - git add filename
-        - adds a single file, can add more when a space (git add filename filename)
-    - git add .
-        - adds every files in the **CURRENT** directory
-    - git add -A
-        - similar to "git add .", but **ADDS EVERYTHING** (files & directory) outside and inside the current directory
-- git commit
-    - saves changes or staged files to the local repository (the IDE you are using right now)
-    - git commit -m "message"
-        - git commit is usually used with -m to stand for message, where you give the commit a name so it will be easier to look for if you every go back
-        - when naming, it will help by using present tense, lower case, and the main change of the file
-- git push
-    - upload or saves the commit file to a remote repository (in this case it will be github)
-    - to use "git push" you will have to set it up using "git push -u origin master"
-
----
-## Rolling Back Changes
-- Undo edit on a file
-    - You changed a file then sudden you want to undo all your changes, but don't know what you change use "git checkout -- filename"
-        - "git checkout -- filename" will remove all change made after pervious saving, in other words this command will restore your file to its pervious save
-- Remove file from stage
-    - If you want to unstage a file you can do "git reset HEAD filename"
-        - "git reset HEAD~1" will also unstage the file as well as commit
-- Undo commit
-    - If you want to uncommit you can do "git reset --soft HEAD~1"
-    - If you want to restore the file to its pervious version and uncommit it, you will use "does git reset --hard HEAD~1"
-        - To uncommit and unstage at the same time you can do "git reset HEAD~1"
-- Undo push
-    - To undo a commit that has been pushed onto a remote repository you will have to use "git revert" commands
-        - "git revert HEAD" will undo your current commit and use the pervious one
-        - "git revert SHA" (SHA is the 40 character code next to "commit" when you do "git log") will undo your current commit and use the selected commit
