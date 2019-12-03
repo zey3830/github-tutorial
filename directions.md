@@ -14,24 +14,24 @@
 
 ## _Topics_
 
-* ~~git vs github overview~~
-  * ~~explain what each is, and the difference between the two~~
-  * ~~[10%]~~
-* ~~one-time setup~~
-  * ~~making a github account (you don't need to go in much depth)~~
-  * ~~how to set up their IDE~~
+* git vs github overview
+  * explain what each is, and the difference between the two~~
+  * [10%]
+* one-time setup
+  * making a github account (you don't need to go in much depth)~~
+  * how to set up their IDE
     * ~~you can simply link to the directions that **you followed** to setup YOUR ide!~~
     * ~~SSH key (especially why we need it / what it does)~~
-  * ~~[15%]~~
-* ~~repo setup~~
-  * ~~`init`, your first `add` & `commit`, new repo on github, remote~~
-  * ~~[20%]~~
-* ~~ongoing workflow & commands~~
-  * ~~status, add, commit, push~~
-  * ~~[20%]~~
-* ~~rolling back changes~~
-  * ~~undo edit/add/commit/push~~
-  * ~~[20%]~~
+  * [15%]
+* repo setup
+  * `init`, your first `add` & `commit`, new repo on github, remote~~
+  * [20%]
+* ongoing workflow & command
+  * status, add, commit, push
+  * [20%]
+* rolling back changes
+  * undo edit/add/commit/push
+  * [20%]
 
 _NOTE: for each command, you should explain:_
 

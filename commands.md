@@ -82,6 +82,7 @@
     - Everything you commit, the commit will be saved so you can go back later
     
     <img src="image/git_log.PNG" alt="git log">
+    (The image above is "git log")
 
 
 ---
@@ -148,5 +149,6 @@
 - "git revert **HEAD**", "HEAD" means commit
     - Having "HEAD" itself means the most recent commit (for example, the file you just committed will be the HEAD)
 - "git reset **HEAD~1**", means the pervious commit
-    - So if you use "HEAD~2", it will mean the second commit before your current commit same as "HEAD~3", it will be your third pervious commit
+    - So if you use "HEAD~2", it will mean the second commit before your current commit 
+        - Same as "HEAD~3", it will be your third pervious commit
     - To check your commits, do "git log", it will show all your pervious commits and to exit just press "q" on the keyboard
