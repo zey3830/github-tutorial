@@ -3,6 +3,8 @@
 *by Ze Zhen Yang*
 
 ---
+# <a href="commands.md">Commands</a>
+---
 ## Git vs. GitHub
 - Git is independent from github that is use for version controls and create repositories
 - Github depedents on git, it is a website that lets you better manage your repositories
