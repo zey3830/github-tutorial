@@ -152,3 +152,8 @@
     - So if you use "HEAD~2", it will mean the second commit before your current commit 
         - Same as "HEAD~3", it will be your third pervious commit
     - To check your commits, do "git log", it will show all your pervious commits and to exit just press "q" on the keyboard
+
+
+
+
+# <a href="README.md">Go back</a>
