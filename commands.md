@@ -82,7 +82,7 @@
     - Everything you commit, the commit will be saved so you can go back later
     
     <img src="image/git_log.PNG" alt="git log">  
-    (The image above is "git log")
+(The image above is "git log")
 
 
 ---
