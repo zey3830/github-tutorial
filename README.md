@@ -18,7 +18,7 @@
 
 ---
 ## Repository Setup
-1. Go into your IDE, create a directory using "mkdir" then use "cd" to move into that directory <img src=/project_school/github-tutorial/image/tutorial_folder.PNG alt="tutorial folder">
+1. Go into your IDE, create a directory using "mkdir" then use "cd" to move into that directory <img src="/project_school/github-tutorial/image/tutorial_folder.PNG" alt="tutorial folder">
 2. In the new directory do "git init" to setup git commands
 3. Create a new file using "touch" (name the file "README.md")
 4. Open up the file by using "c9" (for ide.cs50.io & some other IDE) or just open it up manually and type something on it (remember to save the edited file)
