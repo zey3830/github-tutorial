@@ -81,7 +81,7 @@
     - You can then use "git push" to store this commmit onto the remote repo
     - Everything you commit, the commit will be saved so you can go back later
     
-    <img src="image/git_log.PNG" alt="git log">
+    <img src="image/git_log.PNG" alt="git log">  
     (The image above is "git log")
 
 
